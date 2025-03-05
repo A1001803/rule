@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,tracker.totheglory.im
 DOMAIN-SUFFIX,kp.m-team.cc
 DOMAIN-SUFFIX,hhanclub.top
 DOMAIN-SUFFIX,www.hddolby.com
+DOMAIN-SUFFIX,audiences.me
 
 #不常用
 DOMAIN-SUFFIX,cyanbug.net
@@ -73,6 +74,9 @@ DOMAIN-SUFFIX,ptvicomo.net
 DOMAIN-SUFFIX,www.hdkyl.in
 DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,leaves.red
+DOMAIN-SUFFIX,zhuque.in
+DOMAIN-SUFFIX,star-space.net
+DOMAIN-SUFFIX,pt.eastgame.org
 
 # IP段匹配		
 IP-CIDR,202.96.128.86/32,no-resolve
