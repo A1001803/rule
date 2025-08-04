@@ -501,7 +501,7 @@ rule-providers:
     format: text
     type: http
   Home:
-    url: https://gist.githubusercontent.com/felix-klk/b1476d7a60cf8860ea450c2df09d0330/raw/Home.list
+    url: https://raw.githubusercontent.com/A1001803/rule/refs/heads/main/Home.list
     path: ./ruleset/Home.list
     behavior: classical
     interval: 600
