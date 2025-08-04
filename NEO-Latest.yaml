@@ -466,7 +466,7 @@ proxy-groups:
 
 rule-providers:
   Direct:
-    url: https://gist.githubusercontent.com/felix-klk/efe7b6c431011ffc22695a422093ea2e/raw/Direct.list
+    url: https://raw.githubusercontent.com/A1001803/rule/refs/heads/main/Direct.list
     path: ./ruleset/Direct.list
     behavior: classical
     interval: 600
@@ -508,7 +508,7 @@ rule-providers:
     format: text
     type: http
   ProxyLite:
-    url: https://gist.githubusercontent.com/felix-klk/f1db3932d512e817dbeb3798c5d5d9d7/raw/ProxyLite.list
+    url: https://raw.githubusercontent.com/A1001803/rule/refs/heads/main/ProxyLite.list
     path: ./ruleset/ProxyLite.list
     behavior: classical
     interval: 600
