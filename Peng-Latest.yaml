@@ -45,7 +45,7 @@ proxy-groups:
     proxies:
       - 自动选择
       - 落地节点
-      - 家宽节点
+      # - 家宽节点
       - 香港节点
       - 台湾节点
       - 新加坡节点
@@ -59,26 +59,31 @@ proxy-groups:
       - 冷门地区
       - 手动切换
       - DIRECT
-  - name: 家宽节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+  # - name: 家宽节点
+  #   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+  #   include-all: true
+  #   filter: (?i)^(?=.*(?:家宽|家庭|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong|KR|Korea|KOR|首尔|韩|韓|新加坡|坡|狮城|SG|Singapore|台|新北|彰化|TW|Taiwan))
+  #   type: select
+  - name: 自建节点
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png
     include-all: true
-    filter: (?i)^(?=.*(?:家宽|家庭|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong|KR|Korea|KOR|首尔|韩|韓|新加坡|坡|狮城|SG|Singapore|台|新北|彰化|TW|Taiwan))
+    filter: (?i)自建
     type: select
   - name: 落地节点
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png
     include-all: true
-    filter: (?i)落地|自建
+    filter: (?i)落地
     type: select
-  - name: 美国落地优选
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-    include-all: true
-    filter: (?i)^(?=.*(?:美国|新加坡|加拿大|台湾|德国|法国))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong))
-    type: select
-  - name: 英国落地优选
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/UK.png
-    include-all: true
-    filter: (?i)^(?=.*(?:德国|新加坡|加拿大|法国|西班牙|美国))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong))
-    type: select
+  # - name: 美国落地优选
+  #   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  #   include-all: true
+  #   filter: (?i)^(?=.*(?:美国|新加坡|加拿大|台湾|德国|法国))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong))
+  #   type: select
+  # - name: 英国落地优选
+  #   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/UK.png
+  #   include-all: true
+  #   filter: (?i)^(?=.*(?:德国|新加坡|加拿大|法国|西班牙|美国))(?!.*(?:落地|自建|港|HK|Hong\s?Kong|HongKong|hongkong))
+  #   type: select
   - name: 手动切换
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
     include-all: true
@@ -98,7 +103,7 @@ proxy-groups:
     type: select
     proxies:
       - 落地节点
-      - 家宽节点
+      # - 家宽节点
       - 节点选择
       - 手动切换
       - 自动选择
@@ -120,7 +125,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 落地节点
-      - 家宽节点
+      # - 家宽节点
       - 手动切换
       - 自动选择
       - 香港节点
