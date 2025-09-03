@@ -784,7 +784,6 @@ rules:
   - "RULE-SET,NetEaseMusic,全球直连"
   - "RULE-SET,WeChat,全球直连"
   - "RULE-SET,Baidu,全球直连"
-  - "RULE-SET,JPLocal,日本节点"
   - "RULE-SET,Land,自建节点"
   - "RULE-SET,ProxyLite,节点选择"
   - "RULE-SET,PayPal,自建节点"
