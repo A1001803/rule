@@ -46,7 +46,7 @@ proxy-groups:
     proxies:
       - 自建节点
       - 自动选择
-      - 落地节点
+      # - 落地节点
 #      - 家宽节点
       - 香港节点
       - 台湾节点
@@ -73,12 +73,12 @@ proxy-groups:
     filter: (?i)自建
     type: select
     url: 'https://www.gstatic.com/generate_204'
-  - name: 落地节点
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png
-    include-all: true
-    filter: (?i)落地
-    type: select
-    url: 'https://www.gstatic.com/generate_204'
+  # - name: 落地节点
+  #   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png
+  #   include-all: true
+  #   filter: (?i)落地
+  #   type: select
+  #   url: 'https://www.gstatic.com/generate_204'
   - name: 回家节点
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
     include-all: true
@@ -118,7 +118,7 @@ proxy-groups:
     type: select
     proxies:
       - 自建节点
-      - 落地节点
+      # - 落地节点
 #      - 家宽节点
       - 节点选择
       - 手动切换
@@ -140,7 +140,7 @@ proxy-groups:
     type: select
     proxies:
       - 自建节点
-      - 落地节点
+      # - 落地节点
       - 节点选择
  #     - 家宽节点
       - 手动切换
@@ -162,7 +162,7 @@ proxy-groups:
     type: select
     proxies:
       - 自建节点
-      - 落地节点
+      # - 落地节点
       - 美国节点
       - 节点选择
 #      - 家宽节点
@@ -184,7 +184,7 @@ proxy-groups:
     type: select
     proxies:
       - 自建节点
-      - 落地节点
+      # - 落地节点
 #      - 家宽节点
       - 节点选择
       - 手动切换
@@ -207,7 +207,7 @@ proxy-groups:
     proxies:
       - 自建节点
       - 日本节点
-      - 落地节点
+      # - 落地节点
       - 节点选择
  #     - 家宽节点
       - 手动切换
@@ -229,7 +229,7 @@ proxy-groups:
     proxies:
       - 自建节点
       - 节点选择
-      - 落地节点
+      # - 落地节点
       - 日本节点
  #     - 家宽节点
       - 手动切换
@@ -250,7 +250,7 @@ proxy-groups:
     type: select
     proxies:
       - 自建节点
-      - 落地节点
+      # - 落地节点
 #      - 家宽节点
       - 节点选择
       - 手动切换
@@ -293,7 +293,7 @@ proxy-groups:
     proxies:
       - 自建节点
       - 节点选择
-      - 落地节点
+      # - 落地节点
 #      - 家宽节点
       - 手动切换
       - 自动选择
@@ -375,7 +375,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 落地节点
+      # - 落地节点
       - 自建节点
  #     - 家宽节点
       - 手动切换
