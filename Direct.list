@@ -81,6 +81,7 @@ DOMAIN-SUFFIX,pt.eastgame.org
 DOMAIN-SUFFIX,tracker.zhuque.in
 # IP段匹配		
 IP-CIDR,202.96.128.86/32,no-resolve
+IP-CIDR,202.96.134.33/32,no-resolve
 
 # 回家	
 IP-CIDR,192.168.0.0/16,no-resolve
