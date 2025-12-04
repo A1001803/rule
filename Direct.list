@@ -83,7 +83,7 @@ DOMAIN-SUFFIX,tracker.zhuque.in
 IP-CIDR,202.96.128.86/32,no-resolve
 
 # 回家	
-IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,192.168.0.0/16,no-resolve
 
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
