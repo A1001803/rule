@@ -779,7 +779,7 @@ rule-providers:
 rules:
   - "PROCESS-NAME,subs-check.exe,全球直连"
   - "PROCESS-NAME,subs-check,全球直连"
-  - "RULE-SET,Home,回家节点"
+  - "RULE-SET,Land,回家节点"
   - "RULE-SET,Direct,全球直连"
   - "RULE-SET,ChinaTelecom,全球直连"
   - "RULE-SET,NetEaseMusic,全球直连"
