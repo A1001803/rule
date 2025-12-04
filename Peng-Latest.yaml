@@ -497,7 +497,7 @@ rule-providers:
     format: text
     type: http
  Home:
-    url: https://raw.githubusercontent.com/A1001803/rule/refs/heads/main/Direct.list
+    url: https://raw.githubusercontent.com/A1001803/rule/refs/heads/main/Home.list
     path: ./ruleset/Home.list
     behavior: classical
     interval: 600
