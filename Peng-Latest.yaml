@@ -780,8 +780,6 @@ rule-providers:
 rules:
   - "PROCESS-NAME,subs-check.exe,全球直连"
   - "PROCESS-NAME,subs-check,全球直连"
-  - IP-CIDR,192.168.3.0/24,回家节点
-  - IP-CIDR,192.168.0.0/16,DIRECT
   - "RULE-SET,Home,回家节点"
   - "RULE-SET,Direct,全球直连"
   - "RULE-SET,ChinaTelecom,全球直连"
